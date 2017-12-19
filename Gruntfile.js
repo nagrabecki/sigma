@@ -10,7 +10,7 @@ module.exports = function(grunt){
 			dev: {
 				options: {
 					style: 'expanded',
-					sourcemap: 'none',
+					sourcemap: true,
 				},
 				files: {
 					'compiled/style-human.css': 'sass/style.scss'
@@ -19,7 +19,7 @@ module.exports = function(grunt){
 			dist: {
 				options: {
 					style: 'compressed',
-					sourcemap: 'none',
+					sourcemap: true,
 				},
 				files: {
 					'compiled/style.css': 'sass/style.scss'
@@ -32,7 +32,8 @@ module.exports = function(grunt){
 		**/
 		autoprefixer: {
 			options: {
-				browsers: ['opera 12', 'ff 15', 'chrome 25']
+				browsers: ['opera 12', 'ff 15', 'chrome 25'],
+				map: true
 			},
 			// Prefix all files
 			multiple_files: {
