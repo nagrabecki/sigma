@@ -1,0 +1,25 @@
+{
+  "name": "sigma",
+  "version": "1.0.0",
+  "description": "Start theme",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagrabecki/sigma.git"
+  },
+  "author": "Nagrabecki Damian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nagrabecki/sigma/issues"
+  },
+  "homepage": "https://github.com/nagrabecki/sigma#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
