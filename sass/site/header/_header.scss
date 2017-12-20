@@ -74,7 +74,7 @@
 	}
 
 	.site-branding {
-		width: 45%;
+		width: 35%;
 		flex: 1 0 auto;
 	}
 
@@ -83,3 +83,8 @@
 	}
 
 }
+
+/* 
+Header Menu
+*/
+@import "header-menu";
